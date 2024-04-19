@@ -12,7 +12,7 @@ library(stringr)
 library(data.table)
 
 Summary of the 81 variables in order : (the output of str(summarizedSet))
-
+```
 gropd_df [180 × 81] (S3: grouped_df/tbl_df/tbl/data.frame)
  $ subjects                       : int [1:180] 1 1 1 1 1 1 2 2 2 2 ...
  $ activities                     : chr [1:180] "laying" "sitting" "standing" "walking" ...
@@ -130,7 +130,7 @@ gropd_df [180 × 81] (S3: grouped_df/tbl_df/tbl/data.frame)
   .. ..$ : int [1:6] 175 176 177 178 179 180
   .. ..@ ptype: int(0) 
   ..- attr(*, ".drop")= logi TRUE
-
+```
 1st step (loading the data) :
 
 - All the data was read in a single chunk of code in the script file directly from the folder provided for the assignment.
@@ -295,7 +295,7 @@ rm(test, training, testset, trainingset, activitiesTrain, activitiesTest, traini
  ```
  rm(completeSet)
  ```
- 
+ ```
  > sessionInfo()
 R version 4.3.3 (2024-02-29)
 Platform: x86_64-pc-linux-gnu (64-bit)
@@ -322,4 +322,5 @@ loaded via a namespace (and not attached):
  [1] vctrs_0.6.5       knitr_1.46        cli_3.6.2         xfun_0.43         rlang_1.1.3       stringi_1.8.3     purrr_1.0.2       generics_0.1.3    jsonlite_1.8.8   
 [10] glue_1.7.0        htmltools_0.5.8.1 plyr_1.8.9        sass_0.4.9        fansi_1.0.6       rmarkdown_2.26    jquerylib_0.1.4   evaluate_0.23     tibble_3.2.1     
 [19] fastmap_1.1.1     yaml_2.3.8        lifecycle_1.0.4   compiler_4.3.3    Rcpp_1.0.12       pkgconfig_2.0.3   rstudioapi_0.16.0 digest_0.6.35     R6_2.5.1         
-[28] tidyselect_1.2.1  utf8_1.2.4        pillar_1.9.0      magrittr_2.0.3    bslib_0.7.0       tools_4.3.3       withr_3.0.0       cachem_1.0.8     
+[28] tidyselect_1.2.1  utf8_1.2.4        pillar_1.9.0      magrittr_2.0.3    bslib_0.7.0       tools_4.3.3       withr_3.0.0       cachem_1.0.8
+```
