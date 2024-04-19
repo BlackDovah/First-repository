@@ -5,12 +5,12 @@ date: "2024-04-16"
 ---
 
 The following libraries were used in the script :
-
+```
 library(dplyr)
 library(tidyr)
 library(stringr)
 library(data.table)
-
+```
 Summary of the 81 variables in order : (the output of str(summarizedSet))
 ```
 gropd_df [180 × 81] (S3: grouped_df/tbl_df/tbl/data.frame)
